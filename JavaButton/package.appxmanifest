@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/2010/manifest" xmlns:m2="http://schemas.microsoft.com/appx/2013/manifest">
+  <Identity Name="33833JavaScriptIstNichtJa.140074C428A1E" Version="1.5.0.11" Publisher="CN=725327B1-9E52-4EEB-86A9-65BD728EA6C9" />
+  <Properties>
+    <DisplayName>ジャバボタン</DisplayName>
+    <PublisherDisplayName>JavaScriptIstNichtJava</PublisherDisplayName>
+    <Logo>images\storelogo.png</Logo>
+  </Properties>
+  <Prerequisites>
+    <OSMinVersion>6.3.0</OSMinVersion>
+    <OSMaxVersionTested>6.3.0</OSMaxVersionTested>
+  </Prerequisites>
+  <Resources>
+    <Resource Language="x-generate" />
+  </Resources>
+  <Applications>
+    <Application Id="App" StartPage="default.html">
+      <m2:VisualElements DisplayName="ジャバボタン" Description="ジャバボタン" ForegroundText="dark" BackgroundColor="#ffffff" Square150x150Logo="images\Logo.png" Square30x30Logo="images\SmallLogo.png">
+        <m2:DefaultTile ShortName="ジャバボタン">
+          <m2:ShowNameOnTiles>
+            <m2:ShowOn Tile="square150x150Logo" />
+          </m2:ShowNameOnTiles>
+        </m2:DefaultTile>
+        <m2:SplashScreen Image="images\splashscreen.png" BackgroundColor="#ffffff" />
+        <m2:ApplicationView MinWidth="default" />
+      </m2:VisualElements>
+    </Application>
+  </Applications>
+</Package>

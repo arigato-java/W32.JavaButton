@@ -1,0 +1,13 @@
+﻿body {
+        padding-top: 20%
+}
+h1 {
+    color: #888;
+   text-align: center
+}
+p {
+    text-align: center
+}
+#audiodiv {
+    display: none
+}
